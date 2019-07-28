@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "rotin",
+  "version": "${version}",
+
+  "name": "Rotin",
+  "description": "Adds a floating light block",
+  "authors": [
+    "AshIndigo"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "https://github.com/AshIndigo/rotin"
+  },
+
+  "license": "???",
+  "icon": "assets/rotin/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.ashindigo.rotin.RotinMod"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
